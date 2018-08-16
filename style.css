@@ -1,0 +1,45 @@
+body {
+  margin: 0 auto;
+  width: 960px;
+  background-color: #777;
+}
+header,
+nav,
+footer,
+section,
+aside  {
+  display: block;
+  text-align: center;
+  background-color: #ebebeb;
+  margin: 10px;
+  padding: 10px
+
+}
+section {
+  width: 495px;
+  height: 267px;
+  float: left;
+  overflow: hidden;
+}
+aside {
+  width: 40%;
+  float: right;
+  height: 267px;
+
+}
+.clear {
+  clear: both;
+}
+
+article {
+  background-color: #777;
+  color: #ebebeb;
+  padding: 10px;
+}
+h1, p {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  color: #777;
+  background-color: #ebebeb;
+}
